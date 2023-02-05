@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize_rest.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Minecraft</title>
+</head>
+<body>
+    <section class="EnterPage">
+        <h1>Welcome to Minecraft Game</h1>
+       <br>
+       <span></span>
+       <div>
+        <input id="BtnEnter" type="button" value="Click Start" />
+       </div>
+    </section>
+
+    <section class="main">
+        <div class="gameBoard"></div>
+        <div class="menu">
+          <div class="tools">
+            <img src="/img/axe.png" alt="" class="tool axe" width="50px" height="50px"/>
+            <img src="/img/pickaxe.png"alt="" class="tool pickaxe" width="50px" height="50px"/>
+            <img src="/img/shovel.png"alt="" class="tool shovel" width="50px" height="50px"/>
+            <h4 class="activTool">Your Tool is:</h4>
+          </div>
+          <div class="tiles">
+            <div class="rock">0</div>
+            <div class="three">0</div>
+            <div class="trunk">0</div>
+            <div class="dirt">0</div>
+            <div class="grass">0</div>
+          </div>
+        </div>
+      </section>
+
+    <script src="/js/app.js" defer type="module"></script>
+</body>
+</html>
